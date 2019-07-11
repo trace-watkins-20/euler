@@ -8,7 +8,7 @@ def multiples(num):
   for number in range(1,max):
     num_tot = num_tot + (num * number)
   
-  return (num_list)
+  return (num_tot)
   
 answer = multiples(3) + multiples(5)
   
